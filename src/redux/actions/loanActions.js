@@ -77,7 +77,7 @@ export const createLoan =
     try {
       const res = await axios.post(
         // "http://localhost:5000/api/loan/createloan",
-        "https://loan-application-backend.herokuapp.com/api/loan/createloan",
+        "https://bespoke-granita-549ed9.netlify.app/api/loan/createloan",
         body,
         config
       );
