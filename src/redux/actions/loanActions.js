@@ -73,7 +73,8 @@ export const createLoan =
     console.log(config, body);
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/loan/createloan",
+        // "http://localhost:5000/api/loan/createloan",
+        "https://loan-application-backend.herokuapp.com/api/loan/createloan",
         body,
         config
       );
