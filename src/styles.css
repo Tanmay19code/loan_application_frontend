@@ -1,0 +1,98 @@
+body {
+  background-color: #ffffff;
+}
+.title {
+  font-size: 3.5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #202020;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pageTitle{
+  font-size: 1.5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #202020;
+  /* text-align: center; */
+  margin-top: 20px;
+}
+
+.form{
+  background-color: #ceffa9;
+}
+
+.pageContainer {
+  padding: 20px 5% 0px 5%;
+}
+.nav-item:hover {
+  cursor: pointer;
+}
+.nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: rgb(66, 92, 49);
+  border-color: #9eb23b #9eb23b #9eb23b;
+}
+
+.tabs {
+  margin-top: 50px;
+}
+
+.nav {
+  /* padding-left: 50%; */
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  width: 30%;
+  text-align: center;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #9eb23b;
+}
+.inputFlex {
+  display: flex;
+  justify-content: space-around;
+}
+.inputFlex div {
+  width: 100%;
+  margin: 15px 6px 0 6px;
+}
+.buttonflex{
+  padding: 0 10px 0 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.personalDetailsForm {
+  background-color: rgb(205, 255, 171);
+  padding: 20px 20px 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #9eb23b;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
+.disabledInput{
+  background-color: #9eb23b89 !important;
+  color: #20202089 !important;
+  border: 1px solid #9eb23b;
+  border-radius: 200%;
+  padding: 10px;
+  font-size: 1.2vw;
+  padding: 5px 15px 5px 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type="button"]{
+  background-color: #9eb23b;
+  color: #ffffff;
+  border: 1px solid #9eb23b;
+  border-radius: 200%;
+  padding: 10px;
+  font-size: 1.2vw;
+  padding: 5px 15px 5px 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
